@@ -1,0 +1,22 @@
+{
+  "welcome": "¡Hola! Soy tu bot de peticiones. Usa /search [título] para buscar una película o serie.",
+  "unauthorized": "Lo siento, no tienes permisos para usar este bot. Asegúrate de que tu ID ({user_id}) esté en el USER_MAPPING.",
+  "search_prompt": "Por favor, dime qué quieres buscar: `/search [título]`",
+  "search_results": "Resultados para '{query}':",
+  "no_results": "No se encontraron resultados para '{query}'.",
+  "btn_prev": "⬅️ Anterior",
+  "btn_next": "Siguiente ➡️",
+  "btn_request": "✅ Solicitar",
+  "status_available": "🟢 Ya disponible",
+  "status_processing": "🟡 Procesando",
+  "status_pending": "🟠 Pendiente",
+  "type_movie": "🎬 Película",
+  "type_tv": "📺 Serie",
+  "select_season": "Selecciona la temporada de '{title}':",
+  "all_seasons": "Todas las temporadas",
+  "season_x": "Temporada {season}",
+  "request_success": "✅ Petición enviada exitosamente para '{title}'.",
+  "request_failed": "❌ Error al enviar la petición. Inténtalo de nuevo.",
+  "polling_notification": "🎉 ¡Tu petición de '{title}' ya está disponible para ver!",
+  "trending_title": "🔥 <b>Tendencias de la semana</b>"
+}

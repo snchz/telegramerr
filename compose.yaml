@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  telegramerr:
+    image: ghcr.io/snchz/telegramerr:latest
+    container_name: telegramerr
+    restart: unless-stopped
+    environment:
+      # Idioma principal del bot (es, en)
+      - BOT_LANGUAGE=es
+      # Tiempo en SEGUNDOS entre cada comprobación de notificaciones de Overseerr
+      - POLLING_INTERVAL=60
+      # Nivel de detalle de los logs (INFO, DEBUG, ERROR, WARNING)
+      - LOG_LEVEL=DEBUG
+    env_file:
+      - .env

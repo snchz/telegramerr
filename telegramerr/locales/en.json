@@ -1,0 +1,22 @@
+{
+  "welcome": "Hello! I'm your request bot. Use /search [title] to search for a movie or TV show.",
+  "unauthorized": "Sorry, you don't have permission to use this bot. Ensure your ID ({user_id}) is in the USER_MAPPING.",
+  "search_prompt": "Please tell me what to search: `/search [title]`",
+  "search_results": "Results for '{query}':",
+  "no_results": "No results found for '{query}'.",
+  "btn_prev": "⬅️ Previous",
+  "btn_next": "Next ➡️",
+  "btn_request": "✅ Request",
+  "status_available": "🟢 Available",
+  "status_processing": "🟡 Processing",
+  "status_pending": "🟠 Pending",
+  "type_movie": "🎬 Movie",
+  "type_tv": "📺 TV Show",
+  "select_season": "Select season for '{title}':",
+  "all_seasons": "All Seasons",
+  "season_x": "Season {season}",
+  "request_success": "✅ Request sent successfully for '{title}'.",
+  "request_failed": "❌ Error sending request. Please try again.",
+  "polling_notification": "🎉 Your request for '{title}' is now available to watch!",
+  "trending_title": "🔥 <b>Trending this week</b>"
+}
